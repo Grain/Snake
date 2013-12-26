@@ -409,7 +409,7 @@ int main()
                 printf("Score:\n");
                 for (int i = 0; i < amount; ++i)
                 {
-                    printf("Player %d (%s): %d\n", i, players[last].ip.toString().c_str(), players[last].length);
+                    printf("Player %d (%s): %d\n", i, players[i].ip.toString().c_str(), players[i].length);
                 }
             }
 
